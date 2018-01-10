@@ -1,0 +1,39 @@
+--Test for valid input
+8 8
+1 1 N
+LMLMLMLMM
+
+--Test for crossing the min y co ordinate
+8 8
+1 1 N
+LMLMLMLMMRRMMM
+
+--Test for crossing the min x co ordinate
+8 8
+1 1 N
+LMMMMMMMM
+
+--Test for crossing the max x co ordinate
+8 8
+1 1 N
+RMMMMMMMMMM
+
+--Test for crossing the max Y co ordinate
+8 8
+1 1 N
+MMMMMMMMMMM
+
+--Test for initializing the rover at an x-co ordinate outside the demarcated plateau
+8 8
+-1 1 N
+LMLMLMLMM
+
+--Test for initializing the rover at an y-co ordinate outside the demarcated plateau
+8 8
+1 9 N
+LMLMLMLMM
+
+--Test for initializing the rover at an y-co ordinate outside the demarcated plateau
+8 8
+-1 1 N
+LMLMLMLMM
