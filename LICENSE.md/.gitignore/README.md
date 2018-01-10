@@ -20,6 +20,8 @@ A command of MLRM would move the rover forward in its current orientation, rotat
 
 Once the commands in the instruction file are executed, the rover will print out its current orientation and coordinates.
 
+A file called alternativeInputs.txt is included in the project and instruction sets from this file can be used to test alternative scenarios.
+
 # Why did you do that?
 I chose to keep this solution really simple and not make use of ENUMS and interfaces etc because I personally felt that this project is small enough to not require them (but I could be wrong, I guess that's up for debate). I feel that code should be easy to read, interpret, follow and maintain. 
 
